@@ -50,7 +50,7 @@ export default function EventDetailPage() {
       <div className="flex flex-col items-center gap-4 py-12">
         <p className="text-gray-500">Hendelsen ble ikke funnet</p>
         <Button variant="secondary" onClick={() => navigate('/hendelser')}>
-          Tilbake til Hendelser
+          Tilbake til Hva skjer?
         </Button>
       </div>
     );

@@ -14,7 +14,7 @@ function boardPath(board: BoardType, postId: string): string {
 function boardLabel(board: BoardType): string {
   const map: Record<BoardType, string> = {
     torget: 'Torget',
-    hendelser: 'Hendelser',
+    hendelser: 'Hva skjer?',
     hittegods: 'Hittegods',
     oppslagstavla: 'Oppslagstavla',
   };

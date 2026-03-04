@@ -2,7 +2,7 @@ import { NavLink } from 'react-router-dom';
 
 const tabs = [
   { to: '/torget', label: 'Torget', icon: '🏪' },
-  { to: '/hendelser', label: 'Hendelser', icon: '📅' },
+  { to: '/hendelser', label: 'Hva skjer?', icon: '📅' },
   { to: '/hittegods', label: 'Hittegods', icon: '🔍' },
   { to: '/oppslagstavla', label: 'Oppslag', icon: '📌' },
   { to: '/bot', label: 'Svali', icon: '💬' },

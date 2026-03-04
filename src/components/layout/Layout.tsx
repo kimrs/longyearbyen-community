@@ -5,7 +5,7 @@ import LoginModal from '../common/LoginModal';
 
 const titles: Record<string, string> = {
   '/torget': 'Torget',
-  '/hendelser': 'Hendelser',
+  '/hendelser': 'Hva skjer?',
   '/hittegods': 'Hittegods',
   '/oppslagstavla': 'Oppslagstavla',
   '/bot': 'Svali',
