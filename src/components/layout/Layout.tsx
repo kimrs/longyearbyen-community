@@ -2,6 +2,7 @@ import { Outlet, useLocation } from 'react-router-dom';
 import TopBar from './TopBar';
 import BottomTabBar from './BottomTabBar';
 import LoginModal from '../common/LoginModal';
+import EmailSignup from '../common/EmailSignup';
 
 const titles: Record<string, string> = {
   '/torget': 'Torget',
@@ -28,6 +29,7 @@ export default function Layout() {
       <main className="pt-12 pb-16 px-4">
         <Outlet />
       </main>
+      <EmailSignup />
       <BottomTabBar />
       <LoginModal />
     </div>
